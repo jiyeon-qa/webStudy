@@ -1,0 +1,36 @@
+body {
+    /* 브라우저마다 기본 설정으로 BODY 요소에 margin과 padding의 값이 설정되어 있습니다. */
+    /* 각각의 브라우저마다 BODY 요소가 다른 값을 가지고 있을 수 있으므로 우리가 일정하게 초기화해서 사용합니다. */
+    /* 0은 단위를 사용하지 않습니다. */
+    margin: 0;
+    padding: 0;
+    }
+
+
+
+    header .menu-group {
+        float: none;
+        display: block;
+    }
+    header .main-menu {
+        display: block;
+        margin-top: 10px;
+    }
+    header .main-menu li {
+        border-top: 1px solid #e5e5e5;
+    }
+    header .main-menu li a {
+        padding: 16px 0;
+    }
+  
+    
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+/* VISUAL */
+    .section--visual {
+        background-image: url("https://heropcode.github.io/GitHub-Responsive/img/bg.jpg");
+    }
